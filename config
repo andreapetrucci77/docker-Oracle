@@ -1,3 +1,4 @@
-docker exec -it <Oracle-DB> bash -c "source /home/oracle/.bashrc; sqlplus /nolog"
-
-alter user sys identified by sys;
+user: sys 
+password: Oradoc_db1
+SID: ORCLCDB
+PORT: 1521
