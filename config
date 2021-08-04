@@ -1,0 +1,3 @@
+docker exec -it <Oracle-DB> bash -c "source /home/oracle/.bashrc; sqlplus /nolog"
+
+alter user sys identified by sys;
